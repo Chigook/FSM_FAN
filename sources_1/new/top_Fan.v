@@ -23,6 +23,7 @@ module top_Fan(
         .o_counter(w_counter)
     );
 
+
     wire [3:0] w_pwm;
     Comparator cmp(
         .i_counter(w_counter),

@@ -51,19 +51,19 @@ set_property -dict { PACKAGE_PIN V19  IOSTANDARD LVCMOS33 } [get_ports { o_Led[3
 
 ##7 segment display
 
-#set_property -dict { PACKAGE_PIN W7  IOSTANDARD LVCMOS33 } [get_ports { seg[0] }]; #IO_L13P_T2_MRCC_34 ,Sch=CA
-#set_property -dict { PACKAGE_PIN W6  IOSTANDARD LVCMOS33 } [get_ports { seg[1] }]; #IO_L13N_T2_MRCC_34 ,Sch=CB
-#set_property -dict { PACKAGE_PIN U8  IOSTANDARD LVCMOS33 } [get_ports { seg[2] }]; #IO_L14P_T2_SRCC_34 ,Sch=CC
-#set_property -dict { PACKAGE_PIN V8  IOSTANDARD LVCMOS33 } [get_ports { seg[3] }]; #IO_L14N_T2_SRCC_34 ,Sch=CD
-#set_property -dict { PACKAGE_PIN U5  IOSTANDARD LVCMOS33 } [get_ports { seg[4] }]; #IO_L16P_T2_34      ,Sch=CE
-#set_property -dict { PACKAGE_PIN V5  IOSTANDARD LVCMOS33 } [get_ports { seg[5] }]; #IO_L16N_T2_34      ,Sch=CF
-#set_property -dict { PACKAGE_PIN U7  IOSTANDARD LVCMOS33 } [get_ports { seg[6] }]; #IO_L19P_T3_34      ,Sch=CG
-#set_property -dict { PACKAGE_PIN V7  IOSTANDARD LVCMOS33 } [get_ports { seg[7] }]; #IO_L19N_T3_VREF_34 ,Sch=DP
+set_property -dict { PACKAGE_PIN W7  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[0] }]; #IO_L13P_T2_MRCC_34 ,Sch=CA
+set_property -dict { PACKAGE_PIN W6  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[1] }]; #IO_L13N_T2_MRCC_34 ,Sch=CB
+set_property -dict { PACKAGE_PIN U8  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[2] }]; #IO_L14P_T2_SRCC_34 ,Sch=CC
+set_property -dict { PACKAGE_PIN V8  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[3] }]; #IO_L14N_T2_SRCC_34 ,Sch=CD
+set_property -dict { PACKAGE_PIN U5  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[4] }]; #IO_L16P_T2_34      ,Sch=CE
+set_property -dict { PACKAGE_PIN V5  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[5] }]; #IO_L16N_T2_34      ,Sch=CF
+set_property -dict { PACKAGE_PIN U7  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[6] }]; #IO_L19P_T3_34      ,Sch=CG
+set_property -dict { PACKAGE_PIN V7  IOSTANDARD LVCMOS33 } [get_ports { o_fndFont[7] }]; #IO_L19N_T3_VREF_34 ,Sch=DP
 
-#set_property -dict { PACKAGE_PIN U2  IOSTANDARD LVCMOS33 } [get_ports { an[0]  }]; #IO_L9N_T1_DQS_34   ,Sch=DP
-#set_property -dict { PACKAGE_PIN U4  IOSTANDARD LVCMOS33 } [get_ports { an[1]  }]; #IO_L11P_T1_SRCC_34 ,Sch=DP
-#set_property -dict { PACKAGE_PIN V4  IOSTANDARD LVCMOS33 } [get_ports { an[2]  }]; #IO_L11N_T1_SRCC_34 ,Sch=DP
-#set_property -dict { PACKAGE_PIN W4  IOSTANDARD LVCMOS33 } [get_ports { an[3]  }]; #IO_L12N_T1_MRCC_34 ,Sch=DP
+set_property -dict { PACKAGE_PIN U2  IOSTANDARD LVCMOS33 } [get_ports { o_digitPosition[0]  }]; #IO_L9N_T1_DQS_34   ,Sch=DP
+set_property -dict { PACKAGE_PIN U4  IOSTANDARD LVCMOS33 } [get_ports { o_digitPosition[1]  }]; #IO_L11P_T1_SRCC_34 ,Sch=DP
+set_property -dict { PACKAGE_PIN V4  IOSTANDARD LVCMOS33 } [get_ports { o_digitPosition[2]  }]; #IO_L11N_T1_SRCC_34 ,Sch=DP
+set_property -dict { PACKAGE_PIN W4  IOSTANDARD LVCMOS33 } [get_ports { o_digitPosition[3]  }]; #IO_L12N_T1_MRCC_34 ,Sch=DP
 
 
 ##Buttons
